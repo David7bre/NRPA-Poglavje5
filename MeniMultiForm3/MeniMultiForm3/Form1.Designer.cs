@@ -145,26 +145,26 @@
             this.okno3ToolStripMenuItem1,
             this.oprogramuToolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(140, 70);
             // 
             // okno2ToolStripMenuItem1
             // 
             this.okno2ToolStripMenuItem1.Name = "okno2ToolStripMenuItem1";
-            this.okno2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.okno2ToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.okno2ToolStripMenuItem1.Text = "Okno&2";
             this.okno2ToolStripMenuItem1.Click += new System.EventHandler(this.OpenForm);
             // 
             // okno3ToolStripMenuItem1
             // 
             this.okno3ToolStripMenuItem1.Name = "okno3ToolStripMenuItem1";
-            this.okno3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.okno3ToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.okno3ToolStripMenuItem1.Text = "Okno&3 ";
             this.okno3ToolStripMenuItem1.Click += new System.EventHandler(this.OpenForm);
             // 
             // oprogramuToolStripMenuItem1
             // 
             this.oprogramuToolStripMenuItem1.Name = "oprogramuToolStripMenuItem1";
-            this.oprogramuToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.oprogramuToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.oprogramuToolStripMenuItem1.Text = "O &programu";
             this.oprogramuToolStripMenuItem1.Click += new System.EventHandler(this.OpenForm);
             // 
@@ -173,6 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";

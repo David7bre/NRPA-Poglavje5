@@ -41,17 +41,17 @@ namespace MeniMultiForm1
 
         private void OpenForm(object sender, EventArgs e)
         {
-            if (sender.Equals(okno2ToolStripMenuItem))
+            if (sender.Equals(okno2ToolStripMenuItem1))
             {
                 Form2 form = new Form2();
                 form.ShowDialog();
             }
-            else if (sender.Equals(okno3ToolStripMenuItem))
+            else if (sender.Equals(okno3ToolStripMenuItem1))
             {
                 Form3 form = new Form3();
                 form.ShowDialog();
             }
-            else if (sender.Equals(oprogramuToolStripMenuItem))
+            else if (sender.Equals(oprogramuToolStripMenuItem1))
             {
                 AboutForm aboutForm = new AboutForm();
                 aboutForm.ShowDialog();
