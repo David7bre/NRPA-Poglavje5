@@ -16,5 +16,20 @@ namespace OpenFileDialog1
         {
             InitializeComponent();
         }
+
+        private void btnRaztegni_Click(object sender, EventArgs e)
+        {
+            if (pictureBoxSlika.SizeMode == PictureBoxSizeMode.Normal)
+                pictureBoxSlika.SizeMode = PictureBoxSizeMode.Zoom;
+            else pictureBoxSlika.SizeMode = PictureBoxSizeMode.Normal;
+        }
+
+        private void btnOdpri_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            txtPot.Text = openFileDialog1.FileName;
+            this.Text = "Slika - " + openFileDialog1.FileName;
+            pictureBoxSlika.ImageLocation = openFileDialog1.FileName;
+        }
     }
 }

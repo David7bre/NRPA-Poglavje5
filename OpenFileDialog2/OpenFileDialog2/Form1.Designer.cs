@@ -1,4 +1,4 @@
-﻿namespace OpenFileDialog1
+﻿namespace OpenFileDialog2
 {
     partial class Form1
     {
@@ -79,19 +79,21 @@
             this.txtPot.Location = new System.Drawing.Point(12, 337);
             this.txtPot.Name = "txtPot";
             this.txtPot.ReadOnly = true;
-            this.txtPot.Size = new System.Drawing.Size(100, 20);
+            this.txtPot.Size = new System.Drawing.Size(559, 20);
             this.txtPot.TabIndex = 4;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "Bitmap (*.bmp)|*.bmp|JPEG (*.jpg, *.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|Vse slik" +
+    "e (*.bmp, *.jpg, *.jpeg, *.gif)|*.bmp;*.jpg;*.jpeg;*.gif;";
             this.openFileDialog1.Title = "Slika";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(686, 450);
+            this.ClientSize = new System.Drawing.Size(686, 371);
             this.Controls.Add(this.txtPot);
             this.Controls.Add(this.labelPot);
             this.Controls.Add(this.btnRaztegni);

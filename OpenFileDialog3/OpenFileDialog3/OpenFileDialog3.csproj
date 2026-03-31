@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0F00648-C058-4ACE-A34C-9408899E65A0}</ProjectGuid>
+    <ProjectGuid>{BBDBECC3-8BED-4361-A6CF-57BFBBAF3B58}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>OpenFileDialog1</RootNamespace>
-    <AssemblyName>OpenFileDialog1</AssemblyName>
+    <RootNamespace>OpenFileDialog3</RootNamespace>
+    <AssemblyName>OpenFileDialog3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0F00648-C058-4ACE-A34C-9408899E65A0}</ProjectGuid>
+    <ProjectGuid>{5B9884EB-3E75-4B6B-96C6-43A1C1D1F07E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>OpenFileDialog1</RootNamespace>
-    <AssemblyName>OpenFileDialog1</AssemblyName>
+    <RootNamespace>MojaBeležnica</RootNamespace>
+    <AssemblyName>MojaBeležnica</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
